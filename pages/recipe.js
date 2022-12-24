@@ -4,7 +4,7 @@ import { FaStar, FaTrash, FaSave } from "react-icons/fa"
 import React, {useState} from "react";
 
 export default function recipe() {
-
+    const recipeName = "Cookies";
     const [rating, setRating] = useState(null);
     const [selectedImage, setSelectedImage] = useState(null);
     const tags = ["SWEET", "EASY", "FAST"];
@@ -16,7 +16,7 @@ export default function recipe() {
             // <button className = {styles.button}> <span className = {styles.icon}></span> Return</button>
             <div className={styles.body}>
                 <div className={styles.card}>
-                    <h1 size = {200}>Cookies</h1>
+                    <h1 size = {200}>{recipeName}</h1>
                     <div>
                         {[... Array(5)].map((star, i) => {
                             const ratingValue = i + 1;
@@ -35,23 +35,28 @@ export default function recipe() {
                         })}
                     </div>
 
-                    <div>
-                    {selectedImage && (
-                        <div>
-                            <img alt="not fount" width={"250px"} src={URL.createObjectURL(selectedImage)} />
-                            <br />
-                            <button className = {styles.image_remove} onClick={()=>setSelectedImage(null)}>Remove</button>
-                        </div>
-                    )}
-                    {/* <img src={"/cookies.jpg"} width = '500' height = '400' className = {styles.container}/> */}
-                    <input
-                        type="file"
-                        name="myImage"
-                        className = {styles.image_upload}
-                        onChange={(event) => {
-                        setSelectedImage(event.target.files[0]);
-                    }}
-                    />
+                    <div className = {styles.image_upload}>
+
+                            {selectedImage && (
+                            <div>
+                                <img alt="not fount" width = {700} height = {300} className = {styles.image}src={URL.createObjectURL(selectedImage)} />
+                                <br />
+                            </div>
+                            )}
+                    </div>
+
+                    <div className = {styles.image_button}>
+                            <br/>
+                            <input
+                            type="file"
+                            name="myImage"
+                            className = {styles.image_upload}
+                            onChange={(event) => {
+                            setSelectedImage(event.target.files[0]);
+                            }}
+                            />
+                            <button onClick={()=>setSelectedImage(null)}>Remove</button>
+
                     </div>
 
                     {/*tags */}
@@ -66,7 +71,7 @@ export default function recipe() {
                     </div>
 
                     <h2>Description</h2>    
-                    <textarea id="text" name="text" style = {{width: "70%", height: "15%", padding: "20px"}}></textarea>
+                    <textarea id="text" name="text" style = {{width: "70%", height: "12%", padding: "20px"}}></textarea>
                     <h2>Ingredients</h2>
                     <textarea id="text" name="text" style = {{width: "70%", height: "15%", padding: "20px"}}></textarea>
                     <h2>Steps</h2>
