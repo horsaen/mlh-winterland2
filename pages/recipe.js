@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { FaStar, FaTrash, FaSave } from "react-icons/fa"
 import React, {useState} from "react";
 
-export default function recipe() {
+export default function Recipe() {
     const recipeName = "Cookies";
     const [rating, setRating] = useState(null);
     const [selectedImage, setSelectedImage] = useState(null);
@@ -22,7 +22,7 @@ export default function recipe() {
                             const ratingValue = i + 1;
 
                             return(
-                                <label>
+                                <label key="">
                                     <input 
                                     type = "radio" 
                                     name = "rating" 
@@ -39,7 +39,7 @@ export default function recipe() {
 
                             {selectedImage && (
                             <div>
-                                <img alt="not fount" width = {700} height = {300} className = {styles.image}src={URL.createObjectURL(selectedImage)} />
+                                <Image alt="not fount" width = {700} height = {300} className = {styles.image}src={URL.createObjectURL(selectedImage)} />
                                 <br />
                             </div>
                             )}
@@ -64,7 +64,7 @@ export default function recipe() {
                     <div className = {styles.container}>
                         {tags.map((item) => {
                         return(
-                            <button className = {styles.tag}> {item}</button>
+                            <button className={styles.tag} key="">{item}</button>
                         )
                         })}
                         <button className = {styles.tag}><FaStar></FaStar></button>
