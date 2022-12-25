@@ -7,8 +7,24 @@ export default function GettingStarted () {
 
     const formSubmit = (e) => {
         e.preventDefault()
+        var holidayFilters = []
+        var foodFilters = []
+        var Hcheckbox = document.querySelectorAll('input[type=checkbox].holiday:checked')
+        var Fcheckbox = document.querySelectorAll('input[type=checkbox].food:checked')
+
+        // holiday filters array
+        for (var i = 0; i < Hcheckbox.length; i++) {
+          holidayFilters.push(Hcheckbox[i].value)
+        }
+
+        // food filters array
+        for (var i = 0; i < Fcheckbox.length; i++) {
+          foodFilters.push(Fcheckbox[i].value)
+        }
         // once done will send data to the DB under the current user's pubkey
         // axios.post(api blablabla data)
+        console.log(holidayFilters)
+        console.log(foodFilters)
         const switchURL = () => {
             var url = '/recipes'
             window.location = url
@@ -76,7 +92,7 @@ export default function GettingStarted () {
                     {holidayWord.map((hWord) => (
                         <div key={hWord.name}>
                             <span>
-                                <input value={hWord.name} type="checkbox" />
+                                <input className="holiday" value={hWord.name} type="checkbox" />
                                 <label>{hWord.name}</label>
                             </span>
                         </div>
@@ -88,7 +104,7 @@ export default function GettingStarted () {
                     {foodWord.map((fWord) => (
                         <div key={fWord.name}>
                             <span>
-                            <input value={fWord.name} type="checkbox" />
+                            <input className="food" value={fWord.name} type="checkbox"/>
                             <label>{fWord.name}</label></span>
                         </div>
                     ))}
