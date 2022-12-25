@@ -25,12 +25,13 @@ export default function GettingStarted () {
                 </div>
                 <div>
                     <span>Holiday Filters</span>
+                    <input type="checkbox" />
                 </div>
                 <div>
                     <span>Normal Filters</span>
                 </div>
                 <button type="reset">Reset</button>
-                <button type="submit" className={styles.submit}>Done :)</button>
+                <button type="submit" className={styles.submit}>{`Done :)`}</button>
             </form>
         </div>
     )
