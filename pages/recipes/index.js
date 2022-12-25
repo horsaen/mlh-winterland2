@@ -36,11 +36,12 @@ const addHandler = () => {
 
 export default function Recipes() {
     return (
+        <>
+        <Navbar />
         <div className={styles.page}>
-            <Navbar />
             <div className={styles.recipes}>
                 <div>
-                    <span>Recommended Holiday Recipes ^w^</span>
+                    <h2>Holiday Recipes ^w^</h2>
                     {holiday.map((hRec) => (
                         <div key={hRec.title} className={styles.card}>
                             <div className={styles.cardImage}>
@@ -48,7 +49,7 @@ export default function Recipes() {
                             </div>
                             <div className={styles.bar} />
                             <div className={styles.info}>
-                                <span>{hRec.label}</span>
+                                <h3>{hRec.label}</h3>
                                 <ul>
                                     {hRec.ingredients.map((ing) => (
                                         <li key={ing.text}>{ing.text}</li>
@@ -56,22 +57,23 @@ export default function Recipes() {
                                 </ul>
                                 <span>Calories: {hRec.calories}</span>
                             </div>
-                            <div className={styles.buttons}>
+                            <span className={styles.buttons}>
                                 <Link href={hRec.url}>
                                     <button>Read More</button>
                                 </Link>
                                 <button onClick={addHandler}><MdOutlineLibraryAdd /></button>
-                            </div>
+                            </span>
                         </div>
                     ))}
                 </div>
                 <div>
-                    <span>Regular Recipe Recommendations :D</span>
+                    <h2>Food Recommendations :D</h2>
                     {regular.map((nRec) => (
                         <p key={nRec.title}>{nRec.title}</p>
                     ))}
                 </div>
             </div>
         </div>
+        </>
     )
 }

@@ -66,17 +66,19 @@ export default function GettingStarted () {
 
                 <div className={styles.uname}>
                     <span>Username</span>
-                    <input type='text' placeholder='Username' size='10' minlength="2" maxlength='10'/>
+                    <input class={styles.unameBtn} type='text' placeholder='Username' size='10' minlength="2" maxlength='10'/>
                     <br/>
                 </div>
+
             <div className={styles.filtersCont}>
                 <div>
                     <span>Holiday Filters</span>
                     {holidayWord.map((hWord) => (
                         <div key={hWord.name}>
                             <span>
-                         <input value={hWord.name} type="checkbox" />
-                         <label>{hWord.name}</label></span>
+                                <input value={hWord.name} type="checkbox" />
+                                <label>{hWord.name}</label>
+                            </span>
                         </div>
                     ))}
                 </div>

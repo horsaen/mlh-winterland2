@@ -1,28 +1,37 @@
-.recipes {
-    color: #000;
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;600&display=swap');
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recipies h2 {
+    color: rgb(255, 255, 255);
 }
 .recipes div {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .card {
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 25px;
     padding: 15px;
     height: 600px;
     width: 500px;
     border-radius: 10px;
     background-color: #acc1ca;
-    border: solid 1px #000;
+    border: solid 1px rgb(149, 167, 199);
 }
 .cardImage {
     position: relative;
-    height: 150px;
-    width: 200px;
-    margin: 10px;
-    border: solid 2px #000;
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    border: solid 2px rgb(149, 169, 206);
     overflow: hidden;
     border-radius: 10px;
 }
@@ -34,8 +43,24 @@
 .info {
     display: flex;
     flex-direction: column;
+    color: #0b445c;
+}
+.info h3{
+    color:rgb(71, 102, 155)
 }
 .buttons {
     position: absolute;
     bottom: 10px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px rgb(149, 167, 199);
+    background-color: #87b1c3;
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;    font-family: 'Lexend Deca', sans-serif;
+
 }
