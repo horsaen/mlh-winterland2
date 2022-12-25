@@ -7,6 +7,8 @@ import Image from 'next/image'
 export default function GettingStarted () {
 
     const [ key, setKey ] = useState('')
+    const [name, setName] = useState('')
+    const handleName = ({target:{value}}) => setName(value)
 
     useEffect(() => {
         const pk = window.localStorage.getItem('pk')
@@ -19,7 +21,6 @@ export default function GettingStarted () {
         var foodFilters = []
         var Hcheckbox = document.querySelectorAll('input[type=checkbox].holiday:checked')
         var Fcheckbox = document.querySelectorAll('input[type=checkbox].food:checked')
-        console.log(key)
         // holiday filters array
         for (var i = 0; i < Hcheckbox.length; i++) {
           holidayFilters.push(Hcheckbox[i].value)
@@ -29,23 +30,18 @@ export default function GettingStarted () {
         for (var i = 0; i < Fcheckbox.length; i++) {
           foodFilters.push(Fcheckbox[i].value)
         }
-        // once done will send data to the DB under the current user's pubkey
-        // axios.post(api blablabla data)
-        console.log(holidayFilters)
-        console.log(foodFilters)
-
-        // const switchURL = () => {
-        //     var url = '/recipes'
-        //     window.location = url
-        // }
-        // setTimeout(switchURL(), 500)
         axios
         .post('http://localhost:5000', {
-            username: 'uname',
+            username: name,
             publickey: key,
             hkeywords: holidayFilters,
             nkeywords: foodFilters
         })
+        const switchURL = () => {
+            var url = '/recipes'
+            window.location = url
+        }
+        setTimeout(switchURL(), 500)
     }
 
     const holidayWord = [
@@ -98,7 +94,7 @@ export default function GettingStarted () {
 
                 <div className={styles.uname}>
                     <span>Username</span>
-                    <input className={styles.unameBtn} type='text' placeholder='Username' size='10' minLength="2" maxLength='10'/>
+                    <input className={styles.unameBtn} type='text' placeholder='Username' size='10' minLength="2" maxLength='10' value={name} onChange={handleName}/>
                     <br/>
                 </div>
 
