@@ -1,9 +1,17 @@
 import Head from 'next/head'
+import { useState, useEffect } from 'react'
 import axios from 'axios'
 import styles from './GettingStarted.module.css'
 import Image from 'next/image'
 
 export default function GettingStarted () {
+
+    const [ key, setKey ] = useState('')
+
+    useEffect(() => {
+        const pk = window.localStorage.getItem('pk')
+        setKey(pk)
+    }, [setKey])
 
     const formSubmit = (e) => {
         e.preventDefault()
@@ -11,7 +19,7 @@ export default function GettingStarted () {
         var foodFilters = []
         var Hcheckbox = document.querySelectorAll('input[type=checkbox].holiday:checked')
         var Fcheckbox = document.querySelectorAll('input[type=checkbox].food:checked')
-
+        console.log(key)
         // holiday filters array
         for (var i = 0; i < Hcheckbox.length; i++) {
           holidayFilters.push(Hcheckbox[i].value)
@@ -75,7 +83,7 @@ export default function GettingStarted () {
 
 
             <div className={styles.welcome}>
-                <Image class={styles.image1} src={"/../public/2.png"} alt="pengiun" width={90} height={90}></Image>
+                <Image className={styles.image1} src={"/../public/2.png"} alt="pengiun" width={90} height={90}></Image>
                 <h2>Welcome to <br/> Hungry Holiday! </h2>
             </div>
             
@@ -83,7 +91,7 @@ export default function GettingStarted () {
 
                 <div className={styles.uname}>
                     <span>Username</span>
-                    <input class={styles.unameBtn} type='text' placeholder='Username' size='10' minlength="2" maxlength='10'/>
+                    <input className={styles.unameBtn} type='text' placeholder='Username' size='10' minLength="2" maxLength='10'/>
                     <br/>
                 </div>
 
