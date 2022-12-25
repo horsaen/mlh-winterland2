@@ -4,18 +4,32 @@ const router = express.Router()
 
 router.get('/', async (req, res) => {
     try {
-        const users = await User.find()
+        const users = await User.find({}, {publickey: 0})
         res.json(users)
     } catch (err) {
         res.status(500).json({ message: err.message });
     }
 })
-
+router.post('/', async (req, res) => {
+    const user =  new User({
+        username: req.body.username,
+        publickey: req.body.publickey,
+        hkeywords: req.body.hkeywords,
+        nkeywords: req.body.nkeywords,
+        recipes: req.body.recipes
+    })
+    try {
+        const newUser = await user.save()
+        res.status(201).json(newUser)
+    } catch (err) {
+        res.status(400).json({ message: err.message });
+    }
+})
 router.get('/:username', getUserID, async (req, res) => {
     res.json(res.user)
 })
 
-router.get('/key/:publickey', getPk, async (req, res) => {
+router.get('/manage/:publickey', getPk, async (req, res) => {
     res.json(res.user2)
 })
 
