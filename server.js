@@ -15,6 +15,9 @@ app.use(cors());
 const PORT = process.env.PORT;
 const MONGO = process.env.DATABASE_URL;
 
+const userRouter = require('./routes/user')
+    app.use('/', userRouter)
+
 app.listen(PORT, () => {
     console.log('API is listening on port ' + PORT);
 });
