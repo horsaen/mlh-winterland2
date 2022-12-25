@@ -28,6 +28,7 @@ export default function GettingStarted () {
                 <div className={styles.uname}>
                     <span>Username</span>
                     <input type='text' placeholder='Username' size='10' minlength="2" maxlength='10'/>
+                    <span>2-10</span>
                 </div>
                 <div>
                     <span>Holiday Filters</span>
