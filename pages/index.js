@@ -30,9 +30,12 @@ export default function Home() {
   return (
       <div className={styles.page}>
         <div className={styles.titleContainer}>
-          <div className={styles.title}>
-            <span>Hungry Holiday</span>
-          </div>
+        <Image
+            src="/../public/HHLogo.png"
+            alt="Picture of the author"
+            width={400}
+            height={200}
+            ></Image>
           <div className={styles.loginButton}>
             <button onClick={loginHandler}>Log in!</button>
           </div>

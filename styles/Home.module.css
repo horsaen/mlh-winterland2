@@ -5,12 +5,14 @@
   background-color: #d9e3e7;
   min-height: 100vh;
 }
+
 .titleContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .title {
   user-select: none;
   padding-bottom: 40px;
@@ -24,12 +26,16 @@
   all: unset;
   height: 40px;
   width: 100px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #4c6481;
   font-weight: 600;
   background-color: #acc1ca;
-  border: solid 2px #fff;
   border-radius: 8px;
+}
+
+.loginButton button:hover {
+  background-color: #97c2d3;
 }

@@ -32,6 +32,7 @@ export default function GettingStarted () {
                 <div>
                     <span>Holiday Filters</span>
                     <input type="checkbox" />
+                    <span >Christmas</span>
                 </div>
                 <div>
                     <span>Normal Filters</span>
