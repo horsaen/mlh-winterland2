@@ -7,14 +7,18 @@ import { CgProfile } from 'react-icons/cg'
 export default function Navbar() {
     return (
         <div className={styles.navbar}>
-            <div>
-                <BsJournalBookmark />
-                <span>Recipes</span>
-            </div>
-            <div>
-                <CgProfile />
-                <span>Account</span>
-            </div>
+            <Link href='/recipes'>
+                <div>
+                    <span><BsJournalBookmark /></span>
+                    <span>Recipes</span>
+                </div>
+            </Link>
+            <Link href='/account'>
+                <div>
+                    <span><CgProfile /></span>
+                    <span>Account</span>
+                </div>
+            </Link>
         </div>
     )
 }
