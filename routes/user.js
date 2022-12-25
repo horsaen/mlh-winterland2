@@ -15,10 +15,14 @@ router.get('/:username', getUserID, async (req, res) => {
     res.json(res.user)
 })
 
+router.get('/key/:publickey', getPk, async (req, res) => {
+    res.json(res.user2)
+})
+
 async function getUserID (req, res, next) {
     let user
     try {
-        user = await User.find({ username: req.params.username, publickey: req.params.publickey})
+        user = await User.find({ username: req.params.username}, {publickey: 0})
         if (user == null) {
             return res.status(404).json({ message: 'Cannot find user' })
         }
@@ -28,4 +32,19 @@ async function getUserID (req, res, next) {
     res.user = user
     next()
 }
+
+async function getPk (req, res, next) {
+    let user2
+    try {
+        user2 = await User.find({ publickey: req.params.publickey})
+        if (user2 == null) {
+            return res.status(404).json({ message: 'Cannot find user' })
+        }
+    } catch (err) {
+        return res.status(500).json({ message: err.message })
+    }
+    res.user2 = user2
+    next()
+}
+
 module.exports = router
