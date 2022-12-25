@@ -31,7 +31,7 @@ export default function GettingStarted () {
           foodFilters.push(Fcheckbox[i].value)
         }
         axios
-        .post('http://localhost:5000', {
+        .post('https://api.ahungryholiday.tech', {
             username: name,
             publickey: key,
             hkeywords: holidayFilters,
