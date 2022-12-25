@@ -1,0 +1,228 @@
+recipeId,name,categories
+1,Banana Cake,sour
+2,Blueberry Coffee Cake,medium | sour | hard | easy
+3,Chocolate Cake,sweet | easy | sour | medium | savory | hard | bitter
+4,Chocolate Mayonaise Cake,savory | sour | medium | sweet | bitter | hard | salty | easy
+5,Crazy Cake,savory | salty | bitter | sour | hard
+6,Fresh Apple Cake,salty | sour | easy | bitter | savory | sweet
+7,Fresh Pear Cake,sweet | sour | easy | hard
+8,Graham Cracker Cake,savory | sour
+9,Hot Water Chocolate Cake,sour | easy
+10,Hungry Bear Cheese Cake,sour | sweet | hard
+11,Lemon Poppy Cake,easy | medium | hard | savory | bitter | sweet | sour | salty
+12,Light Old Fashioned Fruit Cake,salty | bitter | sweet | hard | medium | savory
+13,My Best Gingerbread,hard | bitter | medium
+14,Oatmeal Cake,savory | easy | medium
+15,Orange Angel Food Cake,easy
+16,Orange-Poppy Seed Pound Cake,salty | savory
+17,Pineapple Cake,salty | bitter | sweet | savory | easy | medium | hard | sour
+18,Pineapple-Carrot Cake*,easy
+19,Potatoe Cake,sweet
+20,Pumpkin Swirl Cheesecake,salty | medium
+21,Refrigerator Cheesecake,bitter | medium | sour | easy | hard | sweet | savory | salty
+22,Sherry Wine Cake,sour | salty | bitter | savory | hard | medium
+23,Special Prune Cake*,sweet | hard | bitter | medium
+24,Spicy Fruit and Nut Cake*,sour | savory | bitter
+25,Strawberry Spice Loaf,easy | savory | hard | bitter | salty
+26,Three Layer Chocolate Mayonnaise Cake,easy | savory | sour | sweet | medium
+27,Two Layer Chocolate Mayonnaise Cake,medium
+28,Upside Down Cake,medium | easy
+29,Blue Chip Cookies,bitter | sour | hard | medium | easy | savory | sweet | salty
+30,Bourbon Balls,bitter | medium | hard | salty | sweet | savory | sour
+31,Chocolate Crisp Bran Cookies,savory | bitter | sour | hard | easy
+32,Chocolate Peanut Brunch Bars,easy | bitter
+33,Chocolate Trio Squares*,hard | salty | sweet | savory | sour
+34,Christmas Logs,savory | medium | salty | hard
+35,Christmas Snowballs,sour | medium
+36,Crisp Oatmeal Fruit Strips,sweet | bitter | salty | easy | sour | savory | hard
+37,Frosted Delights,salty | hard | sweet | easy
+38,Ginger Snap Bars,sweet | hard | sour | easy | savory | medium | salty
+39, Ginger Snaps,savory | easy | salty | bitter | hard | medium | sweet | sour
+40,Honey Graham Crackers,bitter | savory | hard
+41,Jello Pastel Cookies,hard | sour | sweet | medium | easy | bitter
+42,Lemon Squares,sour | salty | medium | hard | sweet | savory
+43,Minties,sweet | savory | hard | salty | medium | sour | easy | bitter
+44,Oatmeal Cookies,sour | medium | sweet | salty | bitter | hard | savory
+45,Oatmeal Fudge Bars*,salty | sour | easy | savory
+46,Peanut Butter Cookies,bitter | hard | salty | medium | sour | easy | sweet | savory
+47,Pineapple Graham Bars,bitter | savory
+48,Prune Nut Bars,easy | savory | hard | salty | bitter
+49,Pumpkin Oatmeal Cookies,savory | bitter | easy
+50,Snickerdoodles,sweet | sour | savory | medium | bitter | salty
+51,Soft Sugar Cookies,sour | salty | savory | sweet | easy | bitter
+52,Thumbprint Cookies,savory | easy | sour
+53,Walnut Squares,hard | bitter
+54,Banana Cream Pie,savory
+55,Blackberry Nectarine Pie,savory | sour | medium
+56,Creamy Apple Pie,salty | medium | savory | sweet | sour | bitter | easy
+57,Dutch Apple Pie,hard | medium | sour | sweet | easy | savory
+58,Fresh Strawberry Pie,easy | hard
+59,Lemon Cloud Pie,sweet | savory | salty | bitter | medium
+60,Lemon Luscious Pie,bitter | sour | easy | salty | savory | medium | hard
+61,Lemon Meringue Pie,sour | sweet | easy | hard | salty | medium | bitter | savory
+62,Old Fashioned Apple Pie,hard | sweet | sour | salty | savory | easy
+63,Peach Almond Pie,sweet | easy | savory | bitter | medium
+64,Peach Parfait Pie,easy | medium | bitter | sweet | sour
+65,Peanut Butter Ice Cream Pie,savory | bitter | easy | sweet | sour | medium
+66,Peanut Butter Pie,savory | sour | bitter
+67,Pie Crust,bitter | sweet | hard | savory | sour | easy | medium
+68,Sour Cream Raisin Pie,savory
+69,Walnut Pie,bitter | savory | medium | easy | hard | sweet
+70,Walnut-Raisin pie,savory | sweet | medium | sour | easy | bitter | hard | salty
+71,Angel Hash,bitter | medium | sweet | easy | salty | hard | sour | savory
+72,Blue Cheese Dressing,salty | easy
+73,Broccoli Curry Salad,easy
+74,Broccoli Salad,sweet | sour | bitter | medium | savory | salty
+75,Broccoli Salad with Pineapple,sour | salty | hard | savory | sweet | medium | bitter
+76,Carrot Carousel,salty | savory | easy | sweet | bitter
+77,Coleslaw,salty | easy | sour | sweet | bitter | medium
+78,Cranberry Mold,medium | sour | salty | easy | bitter | sweet | hard | savory
+79,Cucumbers in Sour Cream,sour | easy | bitter | savory | salty | medium | hard | sweet
+80,Five Bean Salad,savory | bitter | sweet | hard | easy | salty | medium
+81,Five Cup Salad,savory | hard | sour | easy | medium | sweet | salty | bitter
+82,Garden Vegetable Pasta,easy | hard | bitter | medium | sweet | sour
+83,Green Bean Salad,savory | bitter | medium | sour | sweet | salty | hard
+84,Heavenly Cheese Salad,medium
+85,Horseradish Dressing,salty | savory | easy | hard | sour | sweet
+86,Lemon Cloud Salad,salty | savory | sweet | hard
+87,Lima Bean Salad,savory | sweet | sour | easy | salty
+88,Pea Salad,savory
+89,School French Dressing,hard | savory | salty | easy
+90,Spinach Salad,bitter | hard | medium | sweet | savory | salty | sour
+91,Spinach Salad with Avocado,salty | medium | sweet | bitter | hard
+92,Spinach Salad with Alfalfa Sprouts,medium | salty | bitter | hard | sweet
+93,Summer Fruit Salad,easy | medium | bitter | hard | sour | sweet | salty
+94,Top Ramen Salad,salty | sweet | easy | medium | sour
+95,Zucchini Apple Slaw,bitter | savory | medium | hard | salty | easy | sweet
+96,Broccoli Cheese Soup,medium | bitter
+97,Chicken Noodle Soup,sour
+98,Cleo's Clam Chowder,sweet
+99,Creamy Zucchini Mushroom Soup,sweet | bitter | sour | salty
+100,Elephant Stew,easy | bitter | medium | sour | salty | sweet | savory
+101,Hungry Bear Vegetable Soup,sour | bitter | sweet | savory | easy | hard
+102,Mexican Meatball Soup,sour
+103,Minestrone Soup,easy | bitter | salty | sour
+104,Tortilla Soup,savory | sweet | bitter | sour | salty
+105,Chicken and Shrimp Cantonese,sweet | savory
+106,Chicken With Pineapple,hard
+107,Chinese Beef,savory | salty | medium | bitter | sour | sweet
+108,Chinese Broccoli,savory | medium | hard | salty | easy
+109,Chinese Chicken Salad,sweet | easy | bitter | medium | salty | sour | savory | hard
+110,Chinese Fried Rice,savory | medium | sweet | hard | salty
+111,Chinese Pepper Steak,sour | bitter | medium
+112,Chinese Roast Pork,salty | hard | sweet | savory | medium | easy | bitter
+113,Chinese Stir Fried Chicken with Peanuts,sweet | medium | salty | bitter | hard
+114,Scallops,easy | sour | medium | hard | salty
+115,Cheese Fondue,medium
+116,Golden Nugget Beef,easy
+117,Baby Back Ribs,sour | medium
+118,Sweet and Sour Meatballs,bitter | medium | savory | sour | hard
+119,Saucy Shrimp Over Chinese Noodle Cakes,sour | salty | easy | medium | sweet
+120,Sole Thermidor,sweet | sour | salty | easy | savory | hard | bitter | medium
+121,Bake Trout,savory | sweet | sour | salty | easy | bitter | hard | medium
+122,Cheesy Fish Fillets with Spinach,hard | savory | medium
+123,Cheese Fondue,hard | savory | sweet | easy
+124,Sauteed Scallops,medium | sour | hard | bitter | salty | savory | easy | sweet
+125,"""Louies"" Linguini with Clam Sauce",medium | sweet
+126,Sole Almondie,easy | sour | hard | sweet | savory
+127,Hot Crab Dip,bitter
+128,Shrimp Saute,savory | medium | bitter | sour | easy | sweet
+129,Sitr-Fry Beef and Broccoli,sweet | easy | hard | medium
+130,Barbecued Spareribs,easy | hard | sour | sweet | savory
+131,Sweet and Sour Pork,bitter | savory | salty | medium | hard | sour | sweet | easy
+132,Beef Scallops with Fresh Tomato Sauce,sour | savory | sweet | hard | salty | bitter
+133,Veal Scallopini,medium | hard | easy | sweet | bitter | sour | savory | salty
+134,Savory Goulash,bitter | easy | savory
+135,Veal Parmigan,salty | sour | hard | easy | medium | bitter
+136,Teriyaki Steak,hard | sweet | savory
+137,Beef Stroganoff,medium | savory | sweet
+138,Hungry Bear Cheese Cake,salty | hard | sour | easy | savory | medium
+139,Egg Foo Young,easy
+140,Egg Roll Filling,medium
+141,Egg Roll Wrappers,sour | easy | medium | bitter
+142,Pineapple Spareribs,easy | bitter
+143,Pork Fu Man Chow,medium | bitter | sour | hard | savory | salty
+144,Shrimp Pineapple Fried Rice,hard | sweet
+145,Sweet and Sour Pork,bitter
+146,Albert's Chicken,salty | bitter | sweet | medium | savory
+147,Avocado Chicken Melt,sour | easy | medium | sweet | bitter | savory | hard | salty
+148,Batter Fried Chicken,bitter | medium | salty
+149,Catalina Chicken Stir Fry,sweet | savory | salty | sour | medium | bitter | hard | easy
+150,Chicken Breasts Florentine,savory | sour | hard | medium | sweet | easy | salty
+151,Chicken Cashew,easy | hard | medium | savory | sweet | salty
+152,Chicken Lo Mein,sweet | easy
+153,Chicken Paprika,sour | medium | sweet | hard | easy | salty
+154,Chicken Schnitzel,salty | medium | sweet | savory
+155,Chicken with Artichoke,easy | bitter | savory | hard | sweet | salty | sour | medium
+156,Coq au Vin,salty | savory | bitter
+157,Creamy Chicken Broccoli with Rice,bitter | medium | hard | salty
+158,In a Hurry Chicken Curry,savory | sour | bitter | hard | salty
+159,Jack Zucchini Chicken,easy | savory | sweet
+160,nan,easy | bitter | sweet | sour
+161,Maryland Fried Chicken,sour | medium | easy | hard | salty
+162,Oven Fried Chicken,sweet | hard | sour | medium
+163,Parsley and Parmasen Baked Chicken,savory | sweet
+164,"Sandra's ""Tree Trimmer"" Chicken",easy | bitter | medium | hard | savory
+165,Saute'd Chicken Breats,salty | hard | sour | sweet | savory | easy | medium | bitter
+166,Saute'd Chicken Livers,sour | easy | medium | salty | hard
+167,Spicy Singapore Wings,sour | salty | sweet | savory | bitter | medium
+168,Turkey Tenderloin Supreme,easy | sour | hard | medium
+169,Asparagus Stir-Fried,bitter | sour | easy | sweet | hard
+170,Baked Green Beans,hard | salty | medium | bitter | sweet | savory | sour | easy
+171,Baked Zucchini with Mushrooms,sweet | salty | savory | hard | sour
+172,Bit O' Zucchini Bites,sweet | bitter | easy | sour
+173,Cheesy Spinach Bake,medium | sour | bitter | salty | sweet | savory | easy | hard
+174,Company Cabbage,medium | savory | bitter | hard | easy | sweet | sour | salty
+175,Crisp Potato Pancakes,sour | bitter | hard | medium | easy | savory | sweet
+176,Easy Oven Baked Potatoes,sour | savory | bitter | sweet | salty
+177,Eggplant Rollatini,medium
+178,Glazed Carrots,hard | easy | sour | savory | sweet | salty | medium
+179,Green Beans Salerno,salty
+180,Italian Zucchini,easy | bitter | sweet | salty | savory | medium | hard | sour
+181,Mushrooms in Sour Cream,hard | bitter | sour
+182,Orange Sweet Potatoes,easy | medium | bitter | sweet | savory | salty
+183,Peas,sour | easy | savory
+184,Saute Zucchini,easy | hard | bitter | medium
+185,Spinach Pie,sour | sweet | hard | medium | bitter | savory | easy
+186,Spinach Souffle,hard | easy | medium | sweet | sour | savory | salty
+187,Spinach Strudels,medium | hard | bitter
+188,Stuffed Zucchini,savory | hard | sour | easy | medium | sweet | bitter
+189,Summer Squash,bitter | salty | medium | hard
+190,Sweet and Sour Red Cabbage,salty | bitter | hard | medium | savory | easy
+191,The Spinach,bitter | medium | hard
+192,Three Cheese Spinach,easy | sour | sweet | savory
+193,Tulelake Potato Casserole,medium | bitter | easy | savory
+194,Zucchini Patties,bitter | sweet | hard | savory | salty | medium | sour | easy
+195,Apple Dumplings,savory | salty | hard | sour | sweet | easy | medium
+196,Apple Dessert for a Crowd,sweet | sour | bitter | hard
+197,Chilled Prune Whip,sweet | savory | medium | sour | easy | salty | bitter
+198,Fresh Peach Dessert,savory | sweet | salty | bitter | sour
+199,South Carolina Cobbler,bitter | hard | sour | savory | medium | sweet | salty | easy
+200,Spanish Cream Pudding,bitter | savory
+201,Artichoke-Mozzarella Casserole,easy | sour | bitter | sweet | medium | savory
+202,Asparagus Tomato Quiche,hard | salty | sour | savory
+203,Beef Enchiladas,sweet | hard | sour | salty | medium | easy | bitter | savory
+204,Beef Spinach Quiche,savory | bitter | sweet | easy | hard | salty
+205,Broccoli and Rice Casserole,sour | savory | salty | sweet
+206,Broccoli Cheese Pie,hard | bitter | sweet | medium | savory
+207,Cheese Strata,sour | medium | salty | hard | sweet | bitter
+208,Chicken Tamale Pie,medium | hard | bitter | salty
+209,Chili Cheese Puff,easy | salty | sour | sweet | hard
+210,Chili Chicken,salty | savory | sour | sweet | bitter | easy
+211,Chinese Noodle Casserole,bitter | medium | easy | sweet
+212,Crazy Crust Pizza,medium | sour
+213,Deep Dish Pizza,easy | salty | hard | medium | sweet
+214,Easy Pasta Bake,savory | salty | medium | sour
+215,Fum Gum,medium | easy | sour | salty | hard | savory | sweet
+216,Garden Quiche,bitter | easy | salty | savory
+217,Impossible Taco Pie,savory | salty | sour | bitter | sweet | easy | hard | medium
+218,Pasta Primavera,bitter | sour | sweet | salty
+219,Ranch-style Baked Beans,bitter | savory | sour | salty
+220,Savory Chicken Casserole,savory | bitter
+221,Sour Cream Enchiladas,medium | sweet | salty | bitter | sour | hard | savory
+222,Spinach Fritatta,bitter | hard | salty | medium | savory
+223,Stuffed Green Peppers,hard | salty | bitter | easy | medium | sweet | sour | savory
+224,Tamale Pie,hard | sweet
+225,Tulelake Potato Casserole,sweet | easy
+226,Wild Mushroom and Spinach Lasanga,sweet | bitter | sour | salty
+227,Zucchini Casserole,hard
