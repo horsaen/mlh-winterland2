@@ -34,11 +34,18 @@ export default function GettingStarted () {
         console.log(holidayFilters)
         console.log(foodFilters)
 
-        const switchURL = () => {
-            var url = '/recipes'
-            window.location = url
-        }
-        setTimeout(switchURL(), 500)
+        // const switchURL = () => {
+        //     var url = '/recipes'
+        //     window.location = url
+        // }
+        // setTimeout(switchURL(), 500)
+        axios
+        .post('http://localhost:5000', {
+            username: 'uname',
+            publickey: key,
+            hkeywords: holidayFilters,
+            nkeywords: foodFilters
+        })
     }
 
     const holidayWord = [
