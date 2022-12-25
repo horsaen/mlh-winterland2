@@ -1,0 +1,43 @@
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from '../styles/Home.module.css'
+import { useState, useEffect } from 'react'
+import createPersistedState from 'use-persisted-state'
+import { Deso, Identity } from 'deso.js'
+import dynamic from 'next/dynamic'
+
+
+const usePublicState = createPersistedState(null)
+
+
+export default function Home() {
+  
+  const identity = Identity.init();
+
+  const [publicKey, setPublicKey] = usePublicState(null)
+
+  const login = async () => {
+    const payload = await identity.login({ accessLevel: 2 });
+    const pk = payload.publicKeyAdded;
+    console.log(pk)
+    setPublicKey(pk)
+    
+  };
+  
+  return (
+      <div>
+        <span onClick={login.then(window.location = '/recipe')}>
+          test
+        </span>
+        <div>
+          <span onClick={
+            function () {
+              console.log(publicKey)
+            }
+          }>
+            BLICK
+          </span>
+        </div>
+      </div>
+    )
+}
