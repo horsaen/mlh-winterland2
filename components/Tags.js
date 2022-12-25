@@ -1,0 +1,1 @@
+const allTags = ["Sweet", "Sour", "Salty", "Bitter", "Easy", "Medium", "Hard", "Low-Calorie", "High-Calorie", "Zero-Sugar", "Gluten-Free"]

@@ -1,15 +1,3 @@
-.main{
-  display: flex;
-  flex-direction: row;
-  background-color: white;
-}
-.button{
-  padding: 20px;
-  height: 20%;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
 .body{
   display: flex;
   flex-direction: column;
@@ -26,14 +14,6 @@
   background-position-y: 100px;
 }
 
-.container{
-  display: flex;
-  justify-content: center;
-  justify-self: center;
-  width: 70%;
-  padding: 30px;
-}
-
 .card{
   display: flex;
   flex-direction: column;
@@ -46,8 +26,17 @@
   padding: 20px;
 }
 
+.container{
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  width: 70%;
+  padding: 30px;
+}
+
 .tag{
-  padding:13px 14px;
+  height: 30px;
+  width: 100px;
   border-radius: 12px;
   color:white;
   background-color: rgb(0, 204, 255);
@@ -126,4 +115,68 @@
 
 }
 
+.navbar{
+  display: flex;
+  flex-direction: vertical;
+  align-items: center;
+  background-color:rgb(217, 230, 236);
+  height: 80px;
+}
 
+.navbar_links{
+  display: flex;
+  flex-direction: horizontal;
+  align-items: horizontal;
+
+}
+
+.navbar_item{
+  color: black;
+  margin-left: 40px;
+}
+
+.profile_body{
+  display: flex;
+  flex-direction: horizontal;
+  align-items: horizontal;
+  height: 1000px;
+}
+
+.recommendations{
+  flex: 1;
+  margin-top: 20px;
+  border-right: 1px solid black;
+}
+
+.other{
+  flex: 1;
+}
+
+.recommendations_list{
+  height:auto;
+  width:auto;
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.recipe_image{
+  height: 200px;
+  width: 200px;
+}
+.recipe_card{
+  align-items: center;
+  border-style: solid;
+  margin: 20px;
+  text-align: center;
+}
+
+.recipe_info{
+  display: flex;
+  flex-direction: horizontal;
+  margin-bottom: 20px;
+  justify-content: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
