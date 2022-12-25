@@ -6,7 +6,13 @@ export default function GettingStarted () {
 
     const formSubmit = (e) => {
         e.preventDefault()
-        alert('test')
+        // once done will send data to the DB under the current user's pubkey
+        // axios.post(api blablabla data)
+        const switchURL = () => {
+            var url = '/recipes'
+            window.location = url
+        }
+        setTimeout(switchURL(), 500)
     }
 
     return (
