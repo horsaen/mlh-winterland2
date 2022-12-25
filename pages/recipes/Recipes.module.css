@@ -1,0 +1,41 @@
+.recipes {
+    color: #000;
+}
+.recipes div {
+    display: flex;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    padding: 15px;
+    height: 600px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #acc1ca;
+    border: solid 1px #000;
+}
+.cardImage {
+    position: relative;
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+    border: solid 2px #000;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.bar {
+    width: 250px;
+    height: 2px;
+    background-color: #fff;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.buttons {
+    position: absolute;
+    bottom: 10px;
+}
