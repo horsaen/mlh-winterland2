@@ -25,6 +25,7 @@ export default function GettingStarted () {
         // axios.post(api blablabla data)
         console.log(holidayFilters)
         console.log(foodFilters)
+
         const switchURL = () => {
             var url = '/recipes'
             window.location = url
