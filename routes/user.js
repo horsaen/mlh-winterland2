@@ -18,7 +18,7 @@ router.get('/:username', getUserID, async (req, res) => {
 async function getUserID (req, res, next) {
     let user
     try {
-        user = await User.find({ username: req.params.username})
+        user = await User.find({ username: req.params.username, publickey: req.params.publickey})
         if (user == null) {
             return res.status(404).json({ message: 'Cannot find user' })
         }
@@ -28,5 +28,4 @@ async function getUserID (req, res, next) {
     res.user = user
     next()
 }
-
 module.exports = router
